@@ -1,0 +1,14 @@
+# programa para determinar si es 
+# niño bebé, adolescente o adulto
+nombre = input("Ingrese nu nombre: ")
+apellido = input("Ingrese su apellido: ")
+edad = int(input("Ingrese su edad: "))
+if edad <= 10 and edad > 1:
+    print("El usuario es bebe")
+if edad > 10 and edad <= 29:
+    print("El usuario es adolescente")
+if edad >= 30 and edad <= 49:
+    print("El usuario es adulto")
+if edad >= 50:
+    print("El usuario es adulto mayor")
+
